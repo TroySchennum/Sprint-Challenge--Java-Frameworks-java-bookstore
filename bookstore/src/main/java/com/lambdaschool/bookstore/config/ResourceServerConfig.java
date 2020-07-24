@@ -50,7 +50,9 @@ public class ResourceServerConfig
                              "/swagger-ui.html",
                              "/v2/api-docs",
                              "/webjars/**",
-                             "/createnewuser")
+                             "/createnewuser",
+                                "/books/books",
+                                "/books/book/{id}")
                 .permitAll()
                 .antMatchers("/users/**",
                              "/useremails/**",
